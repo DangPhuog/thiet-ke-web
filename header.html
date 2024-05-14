@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font Indie -->
+    <link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=Amatic+SC:wght@400;700&family=Angkor&family=Anta&family=Asset&family=Caveat:wght@400..700&family=Cherish&family=Cinzel:wght@400..900&family=Creepster&family=Gloria+Hallelujah&family=Great+Vibes&family=Indie+Flower&family=Metal+Mania&family=MonteCarlo&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Qwigley&family=Sacramento&family=Tilt+Prism&family=Waterfall&family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/styles/header.css">
+    <title>Thiết kế website</title>
+
+    <style>
+        /* Style cho ô tìm kiếm */
+        .search-box {
+            position: relative;
+            width: 200px; /* Chiều rộng của ô tìm kiếm */
+        }
+        .search-box input[type="text"] {
+            width: 100%;
+            padding: 8px 32px 8px 8px; /* Thêm khoảng cách phía bên phải để chứa biểu tượng tìm kiếm */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+        }
+        .search-box button {
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 8px;
+            background: none;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="home.html" class="logo">Dnp</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="">about us</a></li>
+                    <li><a href="detailproduct.html" target="content">blog</a></li>
+                    <li class="has-submenu"><a href="listproduct.html"  target="content">dish</a>
+                        <ul class="sub-menu">
+                            <li><a href="">Cake</a></li>
+                            <li><a href="">Fish</a></li>
+                            <li><a href="">Salad</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="login.html"><i class="fa fa-user"></i></a></li> 
+                    <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></a></i></li>
+                    <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <iframe src="listproduct.html" class="iframe" name="content"></iframe>
+
+</body>
+</html>

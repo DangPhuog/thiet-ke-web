@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: "Indie Flower", cursive;
+    color: #fff;
+    font-style: normal;
+} 
+
+/* wrapper */
+
+#head-wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 90vh;
+    background-image: url(https://startertemplatecloud.com/e08/wp-content/uploads/sites/22/2020/12/pexels-pixabay-460537.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Hình ảnh sẽ được co dãn hoặc co gắn để phủ toàn bộ kích thước của phần tử */
+    background-position: center; /* Hiển thị hình ảnh ở giữa của phần tử */
+    background-color: rgba(0, 0, 0, 0.76); /* Màu nền với độ mờ */
+}
+
+.background {
+    background-image: radial-gradient(at center center, #00000096 0%, #000000 100%);
+    opacity: 0.76;	
+    background-size: cover; /* Hình ảnh sẽ được co dãn hoặc co gắn để phủ toàn bộ kích thước của phần tử */
+    overflow: hidden; /* Đảm bảo không có nội dung tràn ra ngoài */
+    height: 90vh; /* Chiều cao tối thiểu bằng chiều cao của màn hình */
+    background-position: center; /* Hiển thị hình ảnh ở giữa của phần tử */
+}
+
+/* header */
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    height: auto; /* Ensure container height adjusts based on content */
+    padding: 20px 0; /* Add padding for spacing */
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: "Waterfall", cursive;
+    font-size: 60px; /* Adjust font size for better fit */
+    color: #fff;
+    font-weight: bolder;
+}
+
+#head-wrapper ul#main-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul#main-menu a {
+    text-transform: uppercase;
+    padding: 10px 20px; /* Increase padding for better spacing */
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px; /* Adjust font size for better fit */
+    font-family: "Indie Flower", cursive;
+    font-weight: lighter ;
+    font-style: normal;
+}
+
+ul#main-menu a:hover {
+    color: #b59f6b;;
+} 
+
+.sub-menu {
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+ul#main-menu li {
+    position: relative;
+}
+
+.has-submenu:hover .sub-menu {
+    display: block;
+}
+
+ul#main-menu .sub-menu li {
+    padding: 10px; 
+}
+
+ul#main-menu .sub-menu li a {
+    color: #000;
+}
+
+ul#main-menu .sub-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+/* banner */
+
+.banner .centered-text h6{ 
+    font-size: 26px;
+}
+
+.banner .centered-text h1{ 
+    text-transform: uppercase;
+    font-size: 4.9rem;
+}
+
+.banner{
+    max-width: 1280px;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.banner .click{
+    padding-top: 30px;
+}
+
+.button a:hover {
+    background-color: #8f7b54;
+    color: #fff; 
+}
+
+.button a {
+    padding: 18px 37px;
+    background-color: #b59f6b;
+    color: #fff; 
+    transition: all .3s;
+    font-family: Chiller;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#banner-bottom{
+    width: 100%;
+    height: 7.5rem;
+    position: relative;
+}
+
+.banner-bottom{
+    min-width: 60%;
+    display: inline-block;
+    min-height: auto;
+    background-color: #35302d;
+    margin-top: -50px;
+    padding: 2.5rem 0px ;
+}
+
+.banner-bottom-content{
+    display: flex;
+    text-align: left;  
+}
+
+.content-centered-text{
+    flex-basis: 30%;
+    padding-left: 2.25rem;
+    line-height: 1.7; /* Dãn dòng là 1.5 lần kích thước của phông chữ */
+}
+
+.content-centered-text span{
+    color: #b59f6b;
+}
+
+.text-1 , .text-2{
+    margin-right: 1.25rem;
+    border-right: 1px solid #474747;
+}
+
+/* content */
+
+#wrapper{
+    padding: 120px 0px 80px 0px;
+    z-index: 1;
+}
+
+.back-ground{
+    background-color: #f5f4f1;
+}
+
+.wrapper{
+    max-width: 1280px;
+    margin: 0px auto; 
+    color: #000;  
+}
+
+.wrapper-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.25rem;
+}
+
+.wrapper-content .main-content{
+    flex-basis: 50%;    
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper-content .main-content img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+

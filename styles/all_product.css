@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+h1{
+    font-style: normal;
+    font-size: 56px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--global-palette3);
+    margin-top: 5%;
+    text-align: center; 
+    font-family: "Indie Flower", cursive;
+}
+
+body{
+    background-color: #f5f4f1;
+    line-height: 2;
+    font-family: Chiller;
+    font-size: 26px;
+    color: #000;
+
+}
+
+ul{	list-style: none; }
+
+ul.products{   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.products li{
+    flex-basis: calc(25% - 0.25rem); 
+    margin-bottom: 30px;   
+    margin-right: 0.25rem;   
+}
+
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+}
+
+.product-top {
+    overflow: hidden; 
+}
+
+.product-top img {
+    width: 100%; 
+    transition: transform 0.5s ease; 
+}
+
+.product-top img:hover {
+    transform: scale(1.2); 
+}
+
+ul#main-menu{
+    display: flex;
+}
+
+ul#main-menu a{
+    text-transform: uppercase;
+    padding: 10px 10px;
+    color: #000;
+    display: block;
+    text-decoration: none;
+}
+
+#main-menu a:hover {
+    color: #b59f6b;
+}
+
+ul.products li{
+    background-color: #fff;
+    padding: 1%;
+}
+
+.product-price{	
+    font-size: 14px;
+    line-height: 1.466667;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-left: 2px;
+    font-family: Chiller;
+}
+
+.product-name{
+    color: #000;
+    text-decoration: none;
+}
+
+a.product-name:hover{
+    color: #b59f6b;
+}
+
+.product-info{
+    padding: 0.25rem 1rem 1.5rem;
+    position: relative;
+    margin: 0 .5em;
+    border-radius: .25rem;
+    transition: -webkit-transform 0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95);
+    transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95);
+    transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95), -webkit-transform 0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95);
+}
+
+#wrapper li:hover{
+    border: 1px solid #b59f6b;
+}
+
+.banner{
+    max-width: 50%; 
+    margin: 0 auto; 
+}
+
+.banner .centered-text {
+    text-align: center; 
+    padding: 1%;
+    width: 20%; 
+    margin: 0 auto; 
+}
+
+.click {
+    text-align: center;		
+    margin-top: 30px;
+}
+
+.button a:hover {
+    background-color: #8f7b54; 
+    color: #fff; 
+}   
+
+.button a {
+    display: inline-block;
+    text-align: center; 
+    padding: 20px 70px ; 
+    font-size: 0.875rem;
+    background-color: #b59f6b;	
+    color: #fff; 
+    transition: all .3s;
+    text-decoration: none;
+}
+
+#wrapper{
+    max-width: 1280px;
+    margin: 0px auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0em;
+    font-family: "Indie Flower", cursive;
+    color: #000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://startertemplatecloud.com/e08/wp-content/uploads/sites/22/2020/12/pexels-pixabay-460537.jpg) ;
+    background-size: cover; /* Hình ảnh sẽ được co dãn hoặc co gắn để phủ toàn bộ kích thước của phần tử */
+    background-position: center; /* Hiển thị hình ảnh ở giữa của phần tử */
+  }
+  
+  .back-ground{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.76); /* Màu nền với độ mờ */
+  }
+  
+  .container{
+    max-width: 1280px;
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  
+  .content{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #fff;
+  }
+  
+  .image{
+    flex: 0 0 45%;
+    max-width: 45%;
+    background-size: cover;
+  }
+  
+  .image img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-register{
+    flex: 0 0 55%;
+    max-width: 55%;
+    padding: 1.25rem;
+  }
+  
+  .title{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+  }
+  
+  .form-box{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    display: block;
+    margin-top: 2rem;
+  }
+  
+  .form-input{
+    position: relative;
+  }
+  
+  .form-input input{
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #00000020;
+    border-radius: 12px;
+    outline: none;
+    background: transparent;
+    font-family: "Indie Flower", cursive;
+  }
+  
+  .form-input input:focus{
+    border: 1px solid #000;
+  }
+
+  .form-input span{
+    position: absolute;
+    top: 10px;
+    padding-left: 15px;
+    color: #000;
+  }
+  
+  .form-button{
+    padding: 1.25rem;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .form-button button{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    border: 1px solid #00000020;
+    border-radius: 12px;
+    outline: none;
+    background: transparent;
+    font-family: Chiller;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .form-button button:hover{
+    transition: opacity 0.5s ease-in-out 0.2s;
+    background-color: #474747;
+  }
+  
+  .text-center{
+    margin-top: 1.25rem;
+    text-align: center;
+  }
+
+  .text-center a{
+    color: #000;
+    font-weight: bolder;
+  }
+  
+  .text-center a:hover{
+    color: #474747;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

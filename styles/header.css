@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    height: auto;
+    padding: 20px 0; 
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: "Waterfall", cursive;
+    font-size: 60px; 
+    color: #000;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#main-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul#main-menu a {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px; 
+    font-family: "Indie Flower", cursive;
+    font-weight: lighter ;
+    font-style: normal;
+}
+
+ul#main-menu a:hover {
+    text-transform: uppercase;
+    padding: 10px 20px; 
+    color: #b59f6b;;
+    text-decoration: none;
+    font-size: 16px; 
+    font-family: "Indie Flower", cursive;
+    font-weight: bolder ;
+    font-style: normal;
+} 
+
+.iframe {
+    border: none; 
+    height: calc(100vh - 115px) !important;
+    width: 100% !important; 
+}
+
+.sub-menu {
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+#main-menu {
+    display: flex;
+    align-items: center;
+}
+
+ul#main-menu li {
+    position: relative;
+}
+
+.has-submenu:hover .sub-menu {
+    display: block;
+}
+
+ul#main-menu .sub-menu li {
+    padding: 10px; 
+}
+
+ul#main-menu .sub-menu li a {
+    color: #000;
+}
+
+ul#main-menu .sub-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+

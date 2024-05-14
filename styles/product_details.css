@@ -1,0 +1,408 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	color: #686868;
+	background-color: #f5f4f1;
+	font-size: 16px;
+	line-height: 2;
+	font-family: "Indie Flower", cursive;
+}
+
+.banner{
+	width: 50%; 
+	margin: 0 auto; 
+}
+
+.centered-text {
+	text-align: center; 
+	padding: 1%; 
+	width: 20%; 
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+.Add span{
+	color: #fff;
+	font-size: 14px;
+	font-family: "Indie Flower", cursive;
+}
+	
+h1{
+    font-style: normal;
+    font-size: 56px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--global-palette3);
+    margin-top: 5%;
+    text-align: center; /* Căn giữa văn bản theo chiều ngang */
+    font-family: "Indie Flower", cursive;
+}
+
+.product-name h1{
+	font-style: normal;
+    font-size: 1.375rem;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--global-palette3);
+    margin-top: 5%;
+    text-align: left;
+    font-family: "Indie Flower", cursive;
+}
+
+.product-name h2{
+	font-style: normal;
+    font-size: .8125rem;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--global-palette3);
+    margin-top: 2%;
+	margin-bottom: 2%;
+    font-family: "Indie Flower", cursive;
+	text-align: left;
+}
+
+#wrapper {
+	max-width: 1280px;
+    margin: 0px auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+	display: flex;
+	font-family: "Indie Flower", cursive;
+	color: #000;
+}
+
+.image, .content {
+	flex-basis: 50%;
+	padding: 50px	;
+	box-sizing: border-box;
+	background-color: #fff; /* Màu nền cho phần hình ảnh */
+}
+
+.image img{
+	width: 100%;
+}
+
+.content-head{
+	padding-top: 10px;
+	border-bottom: 1px solid  #e5e5e5;
+	width: 98%;
+	text-align: center;
+}
+
+.content-between{
+	padding-top: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	width: 98%;
+	text-align: center;
+}
+
+.content-quantity{
+	font-style: normal;
+    font-size: .8125rem;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--global-palette3);
+    margin-top: 2%;
+    font-family: "Indie Flower", cursive;
+	text-align: left;
+}
+
+input.quantity{
+	border: 2px solid #b3b3b3;
+	width: 50px;
+	margin-bottom: 2%;	
+	padding: 5px;
+	font-family: Chiller;
+}
+
+input.quantity:hover , input.quantity:focus{
+	border: 2px solid #000;
+	width: 50px;
+	margin-bottom: 2%;	
+	padding: 5px;
+}
+
+.content-quantity span{
+	margin-right: 1%;
+}
+
+.content-price{
+	text-align: center;
+	font-size: 	14px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-weight: bolders;
+	font-family: Chiller;
+}
+
+button{
+	width: 98%;
+	border: none;
+	cursor: pointer;
+	font: inherit;
+	color: inherit;
+	text-decoration: none;
+	padding: 0;
+	background-color: #fff;
+	border: 1px solid 	#b3b3b3;
+	border-radius: 12px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+button:hover{
+	border-color: #000;
+}
+
+.Add:hover{
+	background-color: #474747;
+}
+
+.Add{
+	width: 98%;
+	border: none;
+	cursor: pointer;
+	font: inherit;
+	color: inherit;
+	text-decoration: none;
+	padding: 0;
+	background-color: #000;
+	border: 1px solid 	#b3b3b3;
+	border-radius: 12px;
+	padding: 10px;
+	font-family: "Indie Flower", cursive;
+}
+
+#description-btn , #introduction-btn , #comment-btn{
+	width: 20%;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	margin-top: 20px;
+	border-radius: 0px;
+}
+
+#description h2 , #comment h2{
+	font-size: 24px;
+}
+
+.checked {
+	color: orange;
+  }
+
+.comment-form{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.comment-form .comment-title{
+	display: block;
+	font-size: 80%;
+	font-style: italic;
+	margin-right: 100px;
+}
+
+.comment-form .required{
+	color: #d54e21;
+}
+
+.comment-form .comment-form-comment{
+	margin-bottom: 10px;
+}
+
+.comment-form textarea {
+	display: block;
+	border: 1px solid #b3b3b3;
+	width: 100%;
+}
+
+.comment-form input {
+	display: inline;
+	border: 1px solid #b3b3b3;
+	height: 30px;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.comment-form textarea:focus , .comment-form input:focus{
+	border: 1px solid #000
+}
+
+.comment-form textarea::placeholder , .comment-form input::placeholder{
+	font-family: "Indie Flower", cursive;
+}
+
+.comment-form .form-submit input{	
+	margin-top: 20px;
+	padding: 0 10px;
+	font-family: "Indie Flower", cursive;
+	border-radius: 8px;
+}
+
+
+
+ul{	list-style: none; }
+
+ul.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0; /* Loại bỏ padding mặc định */
+	margin-top: 2%;
+}
+
+ul.products li{
+    flex-basis: calc(25% - 5px); /* Sử dụng calc để tính toán kích thước, loại bỏ margin-right */
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+}
+
+.product-top {
+    overflow: hidden; /* Đảm bảo không bị tràn viên */
+}
+
+.product-top img {
+    width: 100%; /* Đảm bảo ảnh không tràn ra ngoài */
+    height: auto; /* Đảm bảo tỷ lệ hình ảnh bảo toàn */
+    transition: transform 0.5s ease; /* Tạo hiệu ứng chuyển đổi */
+}
+
+.product-top img:hover {
+    transform: scale(1.2); /* Phóng to khi hover */
+}
+
+ul#main-menu{
+    display: flex;
+}
+
+ul#main-menu a{
+    text-transform: uppercase;
+    padding: 10px 10px;
+    color: #000;
+    display: block;
+    text-decoration: none;
+}
+
+#main-menu a:hover {
+    color: #b59f6b;
+}
+
+ul.products li{
+    background-color: #fff;
+    padding: 1%;
+}
+
+.product-price{	
+    font-size: 14px;
+    line-height: 1.466667;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-left: 2px;
+    font-family: Chiller;
+}
+
+.product-name{
+    color: #000;
+    text-decoration: none;
+}
+
+a.product-name:hover{
+    color: #b59f6b;
+}
+
+.product-info{
+    padding: 0.25rem 1rem 1.5rem;
+    position: relative;
+    margin: 0 .5em;
+    border-radius: .25rem;
+    transition: -webkit-transform 0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95);
+    transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95);
+    transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95), -webkit-transform 0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95);
+}
+
+#wrapper li:hover{
+    border: 1px solid #b59f6b;
+}
+
+.click {
+    text-align: center;		
+    margin-top: 30px;
+}
+
+.button a:hover {
+    background-color: #8f7b54; /* Màu nền khi hover */
+    color: #fff; /* Màu văn bản khi hover */
+}
+
+.button a {
+    display: inline-block;
+    text-align: center; 
+    padding: 20px 70px ; 
+    font-size: 0.875rem;
+    background-color: #b59f6b;	
+    color: #fff; 
+    transition: all .3s;
+    text-decoration: none;
+	font-family: Chiller;
+
+}
+
+#wrapper-favorite-dish{
+    max-width: 1170px;
+    margin: 0px auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#wrapper-favorite-dish h1{
+	padding-top: 100px;
+	border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

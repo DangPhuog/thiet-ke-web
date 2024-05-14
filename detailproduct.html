@@ -1,0 +1,328 @@
+
+<style>
+    .hidden {
+  display: none;
+}
+
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  outline: none;
+}
+
+button:focus,
+button:active {
+  border-bottom: 1px solid #000 ;
+  color: #000  ;
+  font-weight: bolder ;
+}
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+<link rel="stylesheet" type="text/css" href="/styles/footer.css">
+<link rel="stylesheet" type="text/css" href="/styles/product_details.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- font Indie -->
+<link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=Amatic+SC:wght@400;700&family=Angkor&family=Anta&family=Asset&family=Caveat:wght@400..700&family=Cherish&family=Cinzel:wght@400..900&family=Creepster&family=Gloria+Hallelujah&family=Great+Vibes&family=Indie+Flower&family=Metal+Mania&family=MonteCarlo&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Qwigley&family=Sacramento&family=Tilt+Prism&family=Waterfall&family=Zeyada&display=swap" rel="stylesheet">
+<!-- font Gruppo -->
+<link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=Amatic+SC:wght@400;700&family=Angkor&family=Anta&family=Asset&family=Caveat:wght@400..700&family=Cherish&family=Cinzel:wght@400..900&family=Creepster&family=Gloria+Hallelujah&family=Great+Vibes&family=Gruppo&family=Indie+Flower&family=Life+Savers:wght@400;700;800&family=Metal+Mania&family=MonteCarlo&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Qwigley&family=Sacramento&family=Tilt+Prism&family=Waterfall&family=Zeyada&display=swap" rel="stylesheet">
+
+
+			<!-- Banner -->
+			<div class="banner">
+				<h1>Bistro Plate</h1>
+				<div class="centered-text">
+					<span ><a href="/"><span>Home</span></a></span>
+					<span > / </span>
+					<span >Dish</span>
+					<span > / </span>
+					<span >Bistro Plate</span>
+				</div>
+			</div>
+
+
+		<!-- Sản phẩm -->
+		<div id="wrapper">
+			<div class="image">
+				<img src="http://thietkeweb.wuaze.com/wp-content/uploads/2020/12/food-50924_1920-800x800.jpg"  alt="Hình ảnh sản phẩm">
+			</div>
+			<div class="content">
+				<div class="content-head">
+					<div class="product-name">
+						<h1>Bistro Plate</h1>
+					</div>
+
+					<div class="product-name">
+						<h2>Reference: KDY217VNI_S900</h2>
+					</div>
+				</div>
+
+				<div class="content-between">
+					<div class="content-quantity">
+						<span>quantity:</span>
+						<input class="quantity" type="number" value="1">
+					</div>
+				</div>
+
+				<div>
+					<div class="content-price">
+						<span>350.000 <u style="font-size: 10px;">đ</u></span>
+					</div>
+
+					<button class="Add">
+						<span>add to cart</span>
+					</button>
+				</div>
+
+
+				<div class="content-bottom">
+					<div class="button">
+						<button id="description-btn">DESCRIPTION</button>
+						<button id="introduction-btn">REVIEWS</button>
+						<button id="comment-btn">COMMENT</button>
+					</div>
+				
+					<div id="description">
+						<h2>DESCRIPTION</h2>
+						<p>Adipiscing commodo elit at imperdiet. Ipsum nunc aliquet bibendum enim facilisis gravida neque. Lacus luctus accumsan tortor posuere ac. Convallis tellus id interdum velit laoreet id. 
+						In dictum non consectetur a erat. Augue mauris augue neque gravida in fermentum. Blandit cursus risus at ultrices.</p>
+					</div>
+				
+					<div id="introduction" class="hidden" >
+						<h2>REVIEWS</h2> 	
+
+						<div class="reviews">
+							<p>There are no reviews yet !</p>
+						</div>
+					</div>
+
+					<div id="comment" class="hidden">
+						<h2>COMMENT</h2> 
+
+						<div class="comment-form">
+							<p class="comment-title">Your email will not be displayed publicly. Required fields are marked <span class="required">*</span></p>
+							
+							<div class="star-rating"> 
+							<p>Your reviews <span class="required">*</span></p>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							</div>
+
+							<p class="comment-form-author">
+								<label for="author">Author <span class="required">*</span></label>
+								<input type="text" id="author" name="name" placeholder=" Name" size="25">
+							
+								<label for="email">Email <span class="required">*</span></label>
+								<input type="email" id="email" name="email" placeholder=" Email" size="25">
+							</p>
+					
+							<p class="comment-form-comment">
+							<label for="comment">Your comment <span class="required">*</span></label>
+							<textarea id="comment" name="comment" placeholder=" Yummy <3"  rows="5"></textarea>
+							
+							<p class="form-submit" style="float: right;">
+								<input type="submit" value="Submit">
+							</p>
+							</p>			
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<div id="wrapper-favorite-dish">
+		<h1>FAVORITE DISH</h1>
+		<ul class="products">
+			<li>
+				<div class="product-item">
+					<div class="product-top">
+						<a href="" class="product-thump">
+							<img src="http://thietkeweb.wuaze.com/wp-content/uploads/2020/12/food-50924_1920-800x800.jpg" alt="Hình ảnh sản phẩm">
+						</a>
+					</div>
+				</div>
+				<div class="product-info">
+					<a href="detailproduct.html" class="product-name">Bistro Plate</a>
+					<div class="product-price">350.000 <u>đ</u></div>
+					<div class="click">
+						<div class="button">
+							<a href="product">
+								<span>ADD TO CART</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+			<li>
+				<div class="product-item">
+					<div class="product-top">
+						<a href="" class="product-thump">
+							<img src="http://thietkeweb.wuaze.com/wp-content/uploads/2020/12/chocolate-4096338_1280-800x800.jpg" alt="Hình ảnh sản phẩm">
+						</a>
+					</div>
+				</div>
+				<div class="product-info">
+					<a href="" class="product-name">Brasserie</a>
+					<div class="product-price">350.000 <u>đ</u></div>
+					<div class="click">
+						<div class="button">
+							<a href="product">
+								<span>ADD TO CART</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="product-item">
+					<div class="product-top">
+						<a href="" class="product-thump">
+							<img src="http://thietkeweb.wuaze.com/wp-content/uploads/2020/12/salmon-4143363_1280-800x800.jpg" alt="Hình ảnh sản phẩm">
+						</a>
+					</div>
+				</div>
+				<div class="product-info">
+					<a href="" class="product-name">Bowl Saucer</a>
+					<div class="product-price">350.000 <u>đ</u></div>
+					<div class="click">
+						<div class="button">
+							<a href="product">
+								<span>ADD TO CART</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="product-item">
+					<div class="product-top">
+						<a href="" class="product-thump">
+							<img src="http://thietkeweb.wuaze.com/wp-content/uploads/2020/12/tasty-2541471_1280-800x800.jpg" alt="Hình ảnh sản phẩm">
+						</a>
+					</div>
+				</div>
+				<div class="product-info">
+					<a href="" class="product-name">Pasta Plate</a>
+					<div class="product-price">350.000 <u>đ</u></div>
+					<div class="click">
+						<div class="button">
+							<a href="product">
+								<span>ADD TO CART</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</li>	
+		</ul>
+	</div>
+
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="footer">
+			<div class="container-footer-1">
+				<div class="row">
+					<div class="footer-col">
+						<h4>CONTACT US</h4>			
+						<div class="main-footer-col">
+							<p>121 Montague St Brooklyn, NY 11201,
+								58 Howard Street #2 New York</p>
+							<p>Monday - Friday, 9:30 am - 5:30 pm</p>
+							<p>E-mail: ngocphuog59@gmail.com</p>
+							<p>	Phone: (+84) 354 465 513</p>
+						</div>
+					</div>
+					<div class="footer-col">
+						<h4>RECENT POSTS</h4>
+						<div class="main-footer-col">
+							<p>Hello world!</p>
+							<p>Secret of Making Smoked Pork</p>
+							<p>The coffice: the future of work?</p>
+						</div>
+					</div>
+					<div class="footer-col">
+						<h4>OUR STORY</h4>
+						<div class="main-footer-col">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+					<div class="footer-col">
+						<h4>GET IN TOUCH</h4>
+						<div class="main-footer-col input-footer-col">
+							<input class="email" type="email" name="email" placeholder="email@example.com">
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	
+		<div class="container-footer-2">
+			<div class="footer-bottom">
+				<p>Thiet ke website ©2024 - Dang Ngoc Phuong by <a href="https://www.google.com/intl/vi/gmail/about/" style="font-size: 16px;">ngocphuog59@gmail.com</a></p>
+			</div>		
+		</div>
+	</footer>
+
+<script src="script.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+  const descriptionBtn = document.getElementById('description-btn');
+  const introductionBtn = document.getElementById('introduction-btn');
+  const commentBtn = document.getElementById('comment-btn');
+  const descriptionContent = document.getElementById('description');
+  const introductionContent = document.getElementById('introduction');
+  const commentContent = document.getElementById('comment');
+
+  descriptionBtn.addEventListener('click', function() {
+    descriptionContent.classList.remove('hidden');
+    introductionContent.classList.add('hidden');
+	commentContent.classList.add('hidden');
+  });
+
+  introductionBtn.addEventListener('click', function() {
+    introductionContent.classList.remove('hidden');
+    descriptionContent.classList.add('hidden');
+	commentContent.classList.add('hidden');
+  });
+
+  commentBtn.addEventListener('click', function() {
+	commentContent.classList.remove('hidden');
+    introductionContent.classList.add('hidden');
+    descriptionContent.classList.add('hidden');
+  });
+});
+
+
+
+const stars = document.querySelectorAll('.fa-star');
+
+stars.forEach((star, index) => {
+ 
+    star.addEventListener('click', function() {
+    
+        stars.forEach((s, i) => {
+            if (i <= index) {
+                s.classList.add('checked'); 
+            } else {
+                s.classList.remove('checked'); 
+            }
+        });
+    });
+});
+</script>
+
+
+
+	
+
